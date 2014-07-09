@@ -1,5 +1,6 @@
 {
 	"title": "Title for my theme",
+	"name": "newtheme",
 	"description": "My Awesome Theme for Brackets",
 	"version": "0.0.1",
 	"author": "Your Name <youremail@gmail.com>",
