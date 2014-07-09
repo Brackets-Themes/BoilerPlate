@@ -1,17 +1,17 @@
 {
-	"title": "Title for my theme",
-	"name": "newtheme",
-	"description": "My Awesome Theme for Brackets",
-	"version": "0.0.1",
-	"author": "Your Name <youremail@gmail.com>",
-	"homepage": "https://github.com/Brackets-Themes/BoilerPlate",
-	"repository": {
-		"type": "git",
-		"url": "git://github.com/Brackets-Themes/BoilerPlate.git"
-	},
-	"engines": {
-		"brackets": ">=0.41.0"
-	},
-	"theme": "newtheme.css",
-	"screenshot": "screenshot.png"
+    "title": "Title for my theme",
+    "name": "newtheme",
+    "description": "My Awesome Theme for Brackets",
+    "version": "0.0.1",
+    "author": "Your Name <youremail@gmail.com>",
+    "homepage": "https://github.com/Brackets-Themes/BoilerPlate",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/Brackets-Themes/BoilerPlate.git"
+    },
+    "engines": {
+        "brackets": ">=0.41.0"
+    },
+    "theme": "newtheme.less",
+    "screenshot": "screenshot.png"
 }
