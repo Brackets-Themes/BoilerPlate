@@ -8,8 +8,8 @@ In order to install your new theme, you need to publish it to a git repo and ins
 ### Setting up your dev environment ###
 
 1. Install the latest Brackets build (this gives you the native shell binaries which you'll use in step 4)
-2. Fork the [brackets repo](https://github.com/MiguelCastillo/brackets/tree/themes-v1) `git clone https://github.com/MiguelCastillo/brackets.git`
-3. Fetch submodules: `cd brackets` and `git submodule update --init`
+2. Fork the [brackets repo](https://github.com/MiguelCastillo/brackets/tree/themes-v1) `git clone https://github.com/MiguelCastillo/brackets.git -b themes-v1 /bracketsThemes`
+3. Fetch submodules: `cd bracketsThemes` and `git submodule update --init`
 4. Run `setup_for_hacking` script:
 
     |  |  |
