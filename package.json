@@ -1,6 +1,6 @@
 {
     "title": "Title for my theme",
-    "name": "newtheme",
+    "name": "boilerplate",
     "description": "My Awesome Theme for Brackets",
     "version": "0.0.1",
     "author": "Your Name <youremail@gmail.com>",
@@ -12,6 +12,6 @@
     "engines": {
         "brackets": ">=0.41.0"
     },
-    "theme": "newtheme.less",
+    "theme": "main.less",
     "screenshot": "screenshot.png"
 }
