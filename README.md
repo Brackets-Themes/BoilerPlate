@@ -1,7 +1,7 @@
 BoilerPlate
 ===========
 
-This is a boilerplate project to get you started with the essentials to create your new theme as an extension.  Clone this repo and start customizing your theme by modifying newtheme.less.<br>
+This is a boilerplate project to get you started with the essentials to create your new theme as an extension.  Clone this repo and start customizing your theme by modifying main.less.<br>
 
 In order to install your new theme, you need to publish it to a git repo and install it via the extension manager.  But before you can do all that, you need to setup your environment.  ThemesManager will soon ship with Brackets so you will not have to setup a dev environment.
 
@@ -33,14 +33,13 @@ From the View menu, select Themes menu to present you with a dialog where you ca
 
 ### Customizing BoilerPlate ###
 
-Now that you have installed and selected boilerplate theme, you can customize it.  Since the theme was installed as an extension, you will need to navigate to the extensions folder to get to the theme.  Go ahead and do that and open newtheme.less, and start adding your favorite colors.  Notice that when you make changes to newtheme.less, the changes will automatically be applied when you save those changes. I personally do all my customization to newtheme.less right from Brackets so that I can see my changes right as I work.
+Now that you have installed and selected boilerplate theme, you can customize it.  Since the theme was installed as an extension, you will need to navigate to the extensions folder to get to the theme.  Go ahead and do that and open main.less, and start adding your favorite colors.  Notice that when you make changes to main.less, the changes will automatically be applied when you save those changes. I personally do all my customization to main.less right from Brackets so that I can see my changes right as I work.
 
 ### Important bits of a Theme extension ###
 
-1. The more important bit, the theme file.  This can be a css or a less file with all you css rules.  This is the file you modify when you want to make your own custom theme.  In boilerplate, it is newtheme.less.
+1. The more important bit, the theme file.  This can be a css or a less file with all you css rules.  This is the file you modify when you want to make your own custom theme.  In boilerplate, it is main.less.
 2. It needs a package.json, the same way all other Brackets extensions need one.
-3. The package.json must have a <code>theme</code> field.  This is the name of the theme file to be loaded. In the boilerplate project, it is called newtheme.less so ThemeManager will load newtheme.less.
-4. It must have a <code>name</code> field, with the name for the theme. Generally, this should just be the name of the theme file; e.g. newtheme.  More advanced case will require you to use a custom value, but this is really rare, so I am skipping it.
+3. The package.json must have a <code>theme</code> field.  This is the name of the theme file to be loaded. In the boilerplate project, it is called main.less so ThemeManager will load main.less.
+4. It must have a <code>name</code> field, with the name for the theme.  In BoilerPlate the name is simply "boilerplate".
 5. For now, your theme extension needs to have a main.js, as that a requirement for extensions to be installed.  It can be empty.
  
-
