@@ -41,5 +41,5 @@ Now that you have installed and selected boilerplate theme, you can customize it
 2. It needs a package.json, the same way all other Brackets extensions need one.
 3. The package.json must have a <code>theme</code> field.  This is the name of the theme file to be loaded. In the boilerplate project, it is called main.less so ThemeManager will load main.less.
 4. It must have a <code>name</code> field, with the name for the theme.  In BoilerPlate the name is simply "boilerplate".
-5. For now, your theme extension needs to have a main.js, as that a requirement for extensions to be installed.  It can be empty.
+5. For now, your theme extension needs to have a main.js, as that is a requirement for extensions to be installed.  It can be empty.
  
