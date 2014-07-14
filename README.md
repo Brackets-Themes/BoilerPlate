@@ -3,13 +3,13 @@ BoilerPlate
 
 This is a boilerplate project to get you started with the essentials to create your new theme as an extension.  Clone this repo and start customizing your theme by modifying main.less.<br>
 
-In order to install your new theme, you need to publish it to a git repo and install it via the extension manager.  But before you can do all that, you need to setup your environment.  ThemesManager will soon ship with Brackets so you will not have to setup a dev environment.
+In order to install your new theme, you need to publish it to a git repo and install it via the extension manager.  But before you can do all that, you need to setup your environment.
 
 ### Setting up your dev environment ###
 
 1. Install the latest Brackets build (this gives you the native shell binaries which you'll use in step 4)
-2. Fork the [brackets repo](https://github.com/MiguelCastillo/brackets/tree/themes-v1) `git clone https://github.com/MiguelCastillo/brackets.git -b themes-v1 /bracketsThemes`
-3. Fetch submodules: `cd bracketsThemes` and `git submodule update --init`
+2. Fork the [brackets repo](https://github.com/adobe/brackets.git) `git clone https://github.com/adobe/brackets.git`
+3. Fetch submodules: `cd brackets` and `git submodule update --init`
 4. Run `setup_for_hacking` script:
 
     |  |  |
