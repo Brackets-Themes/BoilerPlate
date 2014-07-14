@@ -3,7 +3,7 @@ BoilerPlate
 
 This is a boilerplate project to get you started with the essentials to create your new theme as an extension.  Clone this repo and start customizing your theme by modifying main.less.<br>
 
-In order to install your new theme, you need to publish it to a git repo and install it via the extension manager.  But before you can do all that, you need to setup your environment.
+In order to install your new theme, you need to publish it to a git repo and install it via the extension manager.  But before you can do all that, you need to setup your environment.  Once Brackets Sprint 42 is released, you won't need to setup a dev environment.
 
 ### Setting up your dev environment ###
 
