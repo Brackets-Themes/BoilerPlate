@@ -12,6 +12,8 @@
     "engines": {
         "brackets": ">=0.42.0"
     },
-    "theme": "main.less",
+    "theme": {
+        "file": "main.less"
+    },
     "screenshot": "screenshot.png"
 }
