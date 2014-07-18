@@ -39,6 +39,6 @@ Now that you have installed and selected boilerplate theme, you can customize it
 
 1. The more important bit, the theme file.  This can be a css or a less file with all you css rules.  This is the file you modify when you want to make your own custom theme.  In boilerplate, it is main.less.
 2. It needs a package.json, the same way all other Brackets extensions need one.
-3. The package.json must have a <code>theme</code> object.  This object as of right now contains a <code>file</code> field, which is the file name; in the case of BoilerPlater this is "main.less".  Another field is <code>dark</code>, which is a boolean that tells Brackets to setup an all around dark theme.
+3. The package.json must have a <code>theme</code> object.  This object as of right now contains a <code>file</code> field, which is the file name; in the case of BoilerPlater, it is "main.less".  Another field is <code>dark</code>, which is a boolean that tells Brackets to setup an all around dark theme.
 4. It must have a <code>name</code> field, with the name for the theme.  In BoilerPlate the name is simply "boilerplate".
 5. For now, your theme extension needs to have a main.js, as that is a requirement for extensions to be installed.  It can be empty.
