@@ -1,35 +1,19 @@
 BoilerPlate
 ===========
 
-This is a boilerplate project to get you started with the essentials to create your new theme as an extension.  Clone this repo and start customizing your theme by modifying main.less.<br>
+This is a boilerplate project to get you started with the essentials to create your new theme as an extension.  Clone this repo and start customizing your theme by modifying main.less.
 
-In order to install your new theme, you need to publish it to a git repo and install it via the extension manager.  But before you can do all that, you need to setup your environment.  Once Brackets Sprint 42 is released, you won't need to setup a dev environment.
-
-### Setting up your dev environment ###
-
-1. Install the latest Brackets build (this gives you the native shell binaries which you'll use in step 4)
-2. Fork the [brackets repo](https://github.com/adobe/brackets.git) `git clone https://github.com/adobe/brackets.git`
-3. Fetch submodules: `cd brackets` and `git submodule update --init`
-4. Run `setup_for_hacking` script:
-
-    |  |  |
-    |---|---|
-    | Mac | `tools/setup_for_hacking.sh "/Applications/Brackets.app"` |
-    | Windows | `tools\setup_for_hacking.bat "C:\Program Files (x86)\Brackets"` <br>_(MUST be run in a Command Prompt started with "Run as Administrator")_ |
-    | Linux | `sudo tools/setup_for_hacking.sh "/opt/brackets"` |
-
-Now, when you launch the Brackets app it will load your git copy of the source code, rather than the original source code that was distributed with the installer.
-
+In order to install your new theme, you need to publish it to a git repo and install it via the extension manager.
 
 ### How do you install a Theme? ###
 
-We will use this boilerplate to illustrate a simple workflow.<br>
+We will use this boilerplate to illustrate a simple workflow.
 
-Once Brackets is setup for hacking, install the boilerplate theme by going through Brackets extension manager and install it using the URL <code>https://github.com/Brackets-Themes/BoilerPlate</code>.
+Once Brackets is setup for hacking, install the boilerplate theme by going through Brackets extension manager and install it using the URL `https://github.com/Brackets-Themes/BoilerPlate`. Or you can bundle it up as a zip and drag the zip into the extension manager.
 
 ### Selecting a Themes? ###
 
-From the View menu, select Themes menu to present you with a dialog where you can chose your themes from.  Choose "Title for my theme" to select the boilerplate as the theme.  That's it!
+Visit http://brackets-themes.github.io/ to see the latest install instructions.  Choose "Title for my theme" to select the boilerplate as the theme.  That's it!
 
 ### Customizing BoilerPlate ###
 
@@ -37,8 +21,8 @@ Now that you have installed and selected boilerplate theme, you can customize it
 
 ### Important bits of a Theme extension ###
 
-1. The more important bit, the theme file.  This can be a css or a less file with all you css rules.  This is the file you modify when you want to make your own custom theme.  In boilerplate, it is main.less.
-2. It needs a package.json, the same way all other Brackets extensions need one.
-3. The package.json must have a <code>theme</code> object.  This object as of right now contains a <code>file</code> field, which is the file name; in the case of BoilerPlater, it is "main.less".  Another field is <code>dark</code>, which is a boolean that tells Brackets to setup an all around dark theme.
-4. It must have a <code>name</code> field, with the name for the theme.  In BoilerPlate the name is simply "boilerplate".
-5. For now, your theme extension needs to have a main.js, as that is a requirement for extensions to be installed.  It can be empty.
+1. The most important bit, the theme file.  This can be a css or a less file with all your css rules.  This is the file you modify when you want to make your own custom theme.  In boilerplate, it is `main.less`.
+2. It needs a `package.json`, the same way all other Brackets extensions need one.
+3. The `package.json` must have a `theme` object.  This object as of right now contains a `file` field, which is the file name; in the case of BoilerPlate, it is "main.less".  Another field is `dark`, which is a boolean that tells Brackets to setup an all around dark theme.
+4. It must have a `name` field, with the name for the theme. In BoilerPlate the name is simply "boilerplate".
+5. For now, your theme extension needs to have a main.js, as that is a requirement for extensions to be installed.  The file should be completely empty.
