@@ -5,15 +5,15 @@ This is a boilerplate project to get you started with the essentials to create y
 
 In order to install your new theme, you need to publish it to a git repo and install it via the extension manager.
 
-### How do you install a Theme? ###
+### How do you manually install a Theme? ###
 
 We will use this boilerplate to illustrate a simple workflow.
 
-Once Brackets is setup for hacking, install the boilerplate theme by going through Brackets extension manager and install it using the URL `https://github.com/Brackets-Themes/BoilerPlate`. Or you can bundle it up as a zip and drag the zip into the extension manager.
-
-### Selecting a Themes? ###
-
-Visit http://brackets-themes.github.io/ to see the latest install instructions.  Choose "Title for my theme" to select the boilerplate as the theme.  That's it!
+1. Install the boilerplate theme by going through Brackets extension manager and install it using the URL `https://github.com/Brackets-Themes/BoilerPlate`.
+  1. Or you can bundle it up as a zip and drag the zip into the extension manager.
+1. Select the Brackets View menu and click Themes…
+1. Choose "Title for my theme" to select the boilerplate as the theme.
+1. That's it!
 
 ### Customizing BoilerPlate ###
 
