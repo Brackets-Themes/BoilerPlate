@@ -1,7 +1,7 @@
 BoilerPlate
 ===========
 
-This is a boilerplate project to get you started with the essentials to create your new theme as an extension.  Clone this repo and start customizing your theme by modifying main.less.
+This is a boilerplate project to get you started with the essentials to create your new theme as an extension.  Clone this repo and start customizing your theme by modifying `main.less`.
 
 In order to install your new theme, you need to publish it to a git repo and install it via the extension manager.
 
@@ -21,8 +21,8 @@ Now that you have installed and selected boilerplate theme, you can customize it
 
 ### Important bits of a Theme extension ###
 
-1. The most important bit, the theme file.  This can be a css or a less file with all your css rules.  This is the file you modify when you want to make your own custom theme.  In boilerplate, it is `main.less`.
+1. The most important bit, the theme file.  This can be a css or a less file with all your css rules.  This is the file you modify when you want to make your own custom theme.  In BoilerPlate, it is `main.less`.
 2. It needs a `package.json`, the same way all other Brackets extensions need one.
 3. The `package.json` must have a `theme` object.  This object as of right now contains a `file` field, which is the file name; in the case of BoilerPlate, it is "main.less".  Another field is `dark`, which is a boolean that tells Brackets to setup an all around dark theme.
 4. It must have a `name` field, with the name for the theme. In BoilerPlate the name is simply "boilerplate".
-5. For now, your theme extension needs to have a main.js, as that is a requirement for extensions to be installed.  The file should be completely empty.
+5. Brackets 0.44 and ealier required themes to include an empty main.js file in order to be installed. This is no longer the case with Brackets 1.0, and it not included in BoilerPlate. However, you may still include this file for short-term support of older releases.
